@@ -12,7 +12,7 @@ root = tree.getroot()
 # <C Enrolled>26859</C Enrolled><D Enrolled>3757</D Enrolled>
 # <TOTAL ENROLLED>30616</TOTAL ENROLLED></ITEM>
 # open a file for writing
-#str='MedicaidMangagedCare,County,PlanName,AEnrolled,BEnrolled,CEnrolled,DEnrolled,TOTALENROLLED,TRY'
+#str='MedicaidMangagedCare,County,PlanName,AEnrolled,BEnrolled,CEnrolled,DEnrolled,TOTALENROLLED'
 str = input("Enter the sheet title and tags in comma separated form")
 tags=str.split(',')
 print(tags)
